@@ -89,11 +89,6 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', [
-    'clean',
-    'styleguide'
-  ]);
-
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-compass');
@@ -105,9 +100,25 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-csscomb');
   grunt.loadNpmTasks('grunt-contrib-connect');
 
-  grunt.registerTask('default', ['develop']);
-  grunt.registerTask('develop', ['connect:app', 'watch']);
-  grunt.registerTask('stylesheet', ['sass', 'csslint', 'csscomb']);
-  grunt.registerTask('publish', ['stylesheet', 'clean', 'styleguide', 'connect:doc', 'watch']);
+
+  grunt.registerTask('default', [
+    'develop'
+  ]);
+  grunt.registerTask('develop', [
+    'connect:app',
+    'watch'
+  ]);
+  grunt.registerTask('stylesheet', [
+    'sass',
+    'csslint',
+    'csscomb'
+  ]);
+  grunt.registerTask('publish', [
+    'stylesheet',
+    'clean',
+    'styleguide',
+    'connect:doc',
+    'watch'
+  ]);
 
 };
