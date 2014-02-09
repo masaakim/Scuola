@@ -1,0 +1,30 @@
+{
+  "name": "Scuola",
+  "version": "0.0.0",
+  "description": "git remote add origin git@github.com:morishitter/Scuola.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/Scuola.git"
+  },
+  "keywords": [
+    "CSS"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morishitter/Scuola/issues"
+  },
+  "homepage": "https://github.com/morishitter/Scuola",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-styleguide": "~0.2.15",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-csscomb": "~2.0.1",
+    "grunt-csscss": "~0.6.1",
+    "grunt-contrib-connect": "~0.6.0"
+  }
+}
