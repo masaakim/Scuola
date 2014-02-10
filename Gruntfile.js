@@ -83,7 +83,7 @@ module.exports = function(grunt) {
       },
       stylesheets: {
         files: ['scss/*.scss'],
-        tasks: ['compass']
+        tasks: ['stylesheet']
       },
     },
 
