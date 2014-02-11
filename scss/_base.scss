@@ -1,10 +1,11 @@
+@import "poster-size";
+
 body {
   font-size: 64px;
 }
 
 .wapper {
-  // A0 size (1189mm * 841mm)
-  height: 1189 - 1mm; // to fit papaer size
-  width: 841mm;
+  height: $A0-h - 1mm; // to fit papaer size
+  width: $A0-w;
   background-color: #fff;
 }
