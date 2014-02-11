@@ -1,10 +1,38 @@
 // padding, margin
 
-$numbers: 1rem, 2rem, 3rem, 4rem, 5rem, 6rem, 7rem, 8rem, 9rem, 10rem,
-          11rem, 12rem, 13rem, 14rem, 15rem, 16rem, 17rem, 18rem, 19rem, 20rem;
+$numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+          11, 12, 13, 14, 15, 16, 17, 18, 19, 20;
 
 @each $num in $numbers {
   .mg-#{$num * 5} {
-    margin: $num;
+    margin: $num * 1rem;
   }
+  .mgt-#{$num * 5} {
+    margin-top: $num * 1rem;
+  }
+  .mgr-#{$num * 5} {
+    margin-right: $num * 1rem;
+  }
+  .mgb-#{$num * 5} {
+    margin-bottom: $num * 1rem;
+  }
+  .mgl-#{$num * 5} {
+    margin-left: $num * 1rem;
+  }
+
+  .pd-#{$num * 5} {
+    padding: $num * 1rem;
+  }
+  .pdt-#{$num * 5} {
+    padding-top: $num * 1rem;
+  }
+  .pdr-#{$num * 5} {
+    padding-right: $num * 1rem;
+  }
+  .pdb-#{$num * 5} {
+    padding-bottom: $num * 1rem;
+  }
+  .pdl-#{$num * 5} {
+    padding-left: $num * 1rem;
+  }  
 }
