@@ -79,8 +79,8 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
   padding: 0; }
 
 input, select {
@@ -146,6 +146,36 @@ body {
 
 .col-12 {
   width: 100%; }
+
+.mg-0 {
+  margin: 0rem; }
+
+.mgt-0 {
+  margin-top: 0rem; }
+
+.mgr-0 {
+  margin-right: 0rem; }
+
+.mgb-0 {
+  margin-bottom: 0rem; }
+
+.mgl-0 {
+  margin-left: 0rem; }
+
+.pd-0 {
+  padding: 0rem; }
+
+.pdt-0 {
+  padding-top: 0rem; }
+
+.pdr-0 {
+  padding-right: 0rem; }
+
+.pdb-0 {
+  padding-bottom: 0rem; }
+
+.pdl-0 {
+  padding-left: 0rem; }
 
 .mg-5 {
   margin: 1rem; }
