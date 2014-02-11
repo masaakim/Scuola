@@ -98,7 +98,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.wapper {
+.container {
   height: 1188mm;
   width: 841mm;
   background-color: white; }
