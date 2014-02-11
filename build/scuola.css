@@ -776,3 +776,9 @@ body {
 
 .pdl-100 {
   padding-left: 20rem; }
+
+.centering {
+  text-align: center; }
+
+.font-bold {
+  font-weight: bold; }
