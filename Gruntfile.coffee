@@ -69,6 +69,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-csscss"
   grunt.loadNpmTasks "grunt-csscomb"
   grunt.loadNpmTasks "grunt-contrib-connect"
+
   grunt.registerTask "default", ["develop"]
   grunt.registerTask "develop", [
     "connect:app"

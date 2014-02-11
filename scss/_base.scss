@@ -1,7 +1,12 @@
 @import "poster-size";
 
+html {
+  font-size: 6.25%;
+}
+
 body {
-  font-size: 64px;
+  font-size: 64rem;
+  line-height: 1.4;
 }
 
 *, *:before, *:after {
