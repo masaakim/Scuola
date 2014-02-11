@@ -1,0 +1,10 @@
+// padding, margin
+
+$numbers: 1rem, 2rem, 3rem, 4rem, 5rem, 6rem, 7rem, 8rem, 9rem, 10rem,
+          11rem, 12rem, 13rem, 14rem, 15rem, 16rem, 17rem, 18rem, 19rem, 20rem;
+
+@each $num in $numbers {
+  .mg-#{$num * 5} {
+    margin: $num;
+  }
+}
