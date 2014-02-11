@@ -5,35 +5,51 @@ $numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
 
 @each $num in $numbers {
   .mg-#{$num * 5} {
-    margin: $num * 1rem;
+    margin: $num * 5rem;
   }
   .mgt-#{$num * 5} {
-    margin-top: $num * 1rem;
+    margin-top: $num * 5rem;
   }
   .mgr-#{$num * 5} {
-    margin-right: $num * 1rem;
+    margin-right: $num * 5rem;
   }
   .mgb-#{$num * 5} {
-    margin-bottom: $num * 1rem;
+    margin-bottom: $num * 5rem;
   }
   .mgl-#{$num * 5} {
-    margin-left: $num * 1rem;
+    margin-left: $num * 5rem;
+  }
+
+  .nmg-#{$num * 5} {
+    margin: $num * -5rem;
+  }
+  .nmgt-#{$num * 5} {
+    margin-top: $num * -5rem;
+  }
+  .nmgr-#{$num * 5} {
+    margin-right: $num * -5rem;
+  }
+  .nmgb-#{$num * 5} {
+    margin-bottom: $num * -5rem;
+  }
+  .nmgl-#{$num * 5} {
+    margin-left: $num * -5rem;
   }
 
   .pd-#{$num * 5} {
-    padding: $num * 1rem;
+    padding: $num * 5rem;
   }
   .pdt-#{$num * 5} {
-    padding-top: $num * 1rem;
+    padding-top: $num * 5rem;
   }
   .pdr-#{$num * 5} {
-    padding-right: $num * 1rem;
+    padding-right: $num * 5rem;
   }
   .pdb-#{$num * 5} {
-    padding-bottom: $num * 1rem;
+    padding-bottom: $num * 5rem;
   }
   .pdl-#{$num * 5} {
-    padding-left: $num * 1rem;
+    padding-left: $num * 5rem;
   }  
 }
 
