@@ -1,0 +1,14 @@
+@import "../color";
+
+.border-t {
+  border-top: 8rem solid $gray;
+}
+.border-r {
+  border-right: 8rem solid $gray;
+}
+.border-b {
+  border-bottom: 8rem solid $gray;
+}
+.border-l {
+  border-left: 8rem solid $gray;
+}
