@@ -1,4 +1,5 @@
 @import "poster-size";
+@import "color";
 
 html {
   font-size: 6.25%;
@@ -16,7 +17,8 @@ body {
 }
 
 .wapper {
+  // A0 poster
   height: $A0-h - 1mm; // to fit papaer size
   width: $A0-w;
-  background-color: #fff;
+  background-color: $white;
 }
