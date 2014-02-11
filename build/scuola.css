@@ -1,0 +1,208 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+html {
+  font-size: 6.25%; }
+
+body {
+  font-size: 64rem;
+  line-height: 1.4; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wapper {
+  height: 1188mm;
+  width: 841mm;
+  background-color: white; }
+
+.grid {
+  display: block; }
+  .grid:before, .grid:after {
+    content: " ";
+    display: table; }
+  .grid:after {
+    clear: both; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.mg-5rem {
+  margin: 1rem; }
+
+.mg-10rem {
+  margin: 2rem; }
+
+.mg-15rem {
+  margin: 3rem; }
+
+.mg-20rem {
+  margin: 4rem; }
+
+.mg-25rem {
+  margin: 5rem; }
+
+.mg-30rem {
+  margin: 6rem; }
+
+.mg-35rem {
+  margin: 7rem; }
+
+.mg-40rem {
+  margin: 8rem; }
+
+.mg-45rem {
+  margin: 9rem; }
+
+.mg-50rem {
+  margin: 10rem; }
+
+.mg-55rem {
+  margin: 11rem; }
+
+.mg-60rem {
+  margin: 12rem; }
+
+.mg-65rem {
+  margin: 13rem; }
+
+.mg-70rem {
+  margin: 14rem; }
+
+.mg-75rem {
+  margin: 15rem; }
+
+.mg-80rem {
+  margin: 16rem; }
+
+.mg-85rem {
+  margin: 17rem; }
+
+.mg-90rem {
+  margin: 18rem; }
+
+.mg-95rem {
+  margin: 19rem; }
+
+.mg-100rem {
+  margin: 20rem; }
