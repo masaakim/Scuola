@@ -104,7 +104,11 @@ body {
   background-color: white; }
 
 .grid {
-  display: block; }
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flexbox; }
   .grid:before, .grid:after {
     content: " ";
     display: table; }
@@ -113,51 +117,51 @@ body {
 
 .col-1 {
   width: 8.33333%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-2 {
   width: 16.66667%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-3 {
   width: 25%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-4 {
   width: 33.33333%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-5 {
   width: 41.66667%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-6 {
   width: 50%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-7 {
   width: 58.33333%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-8 {
   width: 66.66667%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-9 {
   width: 75%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-10 {
   width: 83.33333%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-11 {
   width: 91.66667%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .col-12 {
   width: 100%;
-  float: left; }
+  flex-flow: row wrap; }
 
 .mg-0 {
   margin: 0rem; }
@@ -1109,3 +1113,15 @@ body {
 
 .font-bold {
   font-weight: bold; }
+
+.border-t {
+  border-top: 8rem solid #dddddd; }
+
+.border-r {
+  border-right: 8rem solid #dddddd; }
+
+.border-b {
+  border-bottom: 8rem solid #dddddd; }
+
+.border-l {
+  border-left: 8rem solid #dddddd; }
