@@ -5,6 +5,7 @@
   "author": "Masaaki Morishita",
   "ignore": [
     "package.json",
-    "index.html"
+    "index.html",
+    "README.md"
   ]
 }
