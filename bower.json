@@ -1,0 +1,10 @@
+{
+  "name": "Scuola",
+  "version": "0.0.1",
+  "main": "build/scuola.css",
+  "author": "Masaaki Morishita",
+  "ignore": [
+    "package.json",
+    "index.html"
+  ]
+}
