@@ -65,8 +65,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-styleguide"
   grunt.loadNpmTasks "grunt-contrib-clean"
   grunt.loadNpmTasks "grunt-contrib-csslint"
-  grunt.loadNpmTasks "grunt-contrib-csslint"
-  grunt.loadNpmTasks "grunt-csscss"
   grunt.loadNpmTasks "grunt-csscomb"
   grunt.loadNpmTasks "grunt-contrib-connect"
 
